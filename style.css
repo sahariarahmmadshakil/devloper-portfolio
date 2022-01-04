@@ -1,6 +1,33 @@
 body{
     font-family: 'Jost', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 50px;
+}
+#name_color{
+    color: darkorange;
+}
+section{
+    display: flex;
+}
+.first_section{
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 2%;
+    
+}
+.first_section image{
+    width: 50%;
+}
+.link_btn{
+    text-decoration: none;
+    background-image:linear-gradient(rgb(255,101,73),rgb(255,152,116));
+    color: rgb(255, 255, 255);
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.top_left_banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
