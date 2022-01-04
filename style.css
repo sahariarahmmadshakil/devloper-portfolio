@@ -10,14 +10,14 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
-.first_section{
+.divide_width{
     width: 50%;
     padding-left: 5%;
     padding-top: 2%;
-    
 }
-.first_section image{
+.divide_width image{
     width: 50%;
 }
 .link_btn{
@@ -30,4 +30,15 @@ section{
 .top_left_banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.mid_section_banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+p{
+    text-align: justify;
+}
+.mid_right_text_position{
+    width: 80%;
 }
